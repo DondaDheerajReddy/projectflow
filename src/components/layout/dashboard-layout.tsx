@@ -16,7 +16,7 @@ export default function DashboardLayout({
     <div className="flex h-screen overflow-hidden bg-background">
       <Sidebar workspaceId={workspaceId} />
       <div className="flex flex-1 flex-col overflow-hidden">
-        <Navbar title={navTitle} />
+        <Navbar title={navTitle} workspaceId={workspaceId} />
         <main className="flex-1 overflow-y-auto p-6">{children}</main>
       </div>
     </div>
