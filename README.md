@@ -167,7 +167,7 @@ Invitation   → token-based email invitations
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourusername/projectflow.git
+git clone https://github.com/DondaDheerajReddy/projectflow.git
 cd projectflow
 npm install
 ```
@@ -270,4 +270,4 @@ npm run db:seed      # Seed with 10,000 tasks
 
 ## License
 
-MIT
+ISC
